@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+    <script src="final.js" defer></script>
+    <link rel href="normalise.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Prashans's Portfolio</title>
+</head>
+<body>
+    <header id="header">
+    <div class="main-nav">
+        <nav class="logo-section">
+            <img class="logo-f" src="Letter F.png" alt="logo.p">
+            <p class="header-text">ront-End Developer</p>
+        </nav>
+        <nav class="dropdown">
+            <ul>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="about">
+    <div class="about-main">
+        <h1 class="about-me">About Me</h1>
+        <div class="text-logo">
+        <p class="about-text">"Hello, I'm Prashan Attanayaka, a dedicated and passionate front-end developer. 
+            Proficient in HTML, CSS, and JavaScript, I thrive on creating visually appealing and user-friendly web experiences. 
+            Having honed my skills through rigorous training at General Assembly, 
+            I am now eager to embark on an exciting journey in the industry. 
+            My drive to excel and learn has led me to pursue an upcoming internship, 
+            where I am enthusiastic about applying my knowledge and collaborating with a dynamic team. 
+            I am a diligent worker who finds joy in the art of coding, often immersing myself in front of my computer to craft innovative solutions. 
+            With a strong work ethic and a genuine passion for the craft, 
+            I am committed to contributing positively to any project I undertake. 
+            Let's shape the digital world together, to make it better, efficient and convenient."</p>
+            <img class="dev-img" src="Front-end Dev.png" alt="front.end.logo">
+        </div>
+    </section>
+
+    <section id="education">
+            <h1 class="education-heading">
+                Education Qualification
+            </h1>
+        <div class="bachelors-degree">
+            <img class="cardiff-img" src="cardiff-metropolitan-university-logo-E869C6ED9A-seeklogo.com.png" alt="cardiff.img">
+            <h2 class="degree-text">Bachelor of Arts In Business Management</h2>
+        </div>
+        <div class="general-assembly">
+            <img class="ga-img" src="general+assembly+white+final.png" alt="ga.img">
+            <h2 class="ga-front-end-text">Front-End Web Development</h2>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="sevice-mobile-view">
+                <img src="JavaScript-Logo.png">
+            </div>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="my-details">
+            <h1>Contact Me</h1>
+            <h2>Prashan Attanayaka</h2>
+            <a href="#"><h2>prashanattanayaka@outlook.com</h2></a>
+            <h2>+61 404-133-302</h2>
+            <div class="social-media">
+                <a href="#"><ion-icon name="logo-facebook"> </ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a> 
+                <a href="#"><ion-icon name="logo-snapchat"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a> 
+                <h2>SEND MESSAGE</h2><br> 
+            </div>
+        </div>
+            <form action="submit_form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="7" cols="50" required></textarea><br><br>
+            <div class="submit-button">
+                <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+                <div class="popup" id="popup">
+                    <img src="Green Tick Mark Transparent PNG.png" alt="tick.icon">
+                    <h2>Thank You!</h2>
+                    <p>Your details have been successfully submitted.</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+            </div>
+            </form>
+    </section>
+    <section id="resume">
+        <div class="resume-section">
+            <h1>Resume</h1>
+            <a href="#">Download</a>
+        </div>
+    </section>   
+    </div>
+    <footer>
+        <p>Copyright @ Prashan. All rights reserved</p>
+    </footer>
+    
+   
+</body>
+</html>
